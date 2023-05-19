@@ -19,6 +19,5 @@ const database = mysql.createPool({
     console.error(err);
   });
 
-  // const database = require("./database");
   module.exports = database;
   
